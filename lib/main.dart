@@ -286,6 +286,7 @@ class PostWidget extends StatelessWidget {
                             ? Colors.amber[100]
                             : Colors.blue[100],
                       ),
+                      width: 220,
                       child: Text(post.text),
                     ),
                     /// Row のなかに Row をいれて要素をまとめます
